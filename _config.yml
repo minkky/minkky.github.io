@@ -14,6 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
+      all_title: minkky 의 끄적끄적
       title: POST
       url : "https:minkky.github.io"
       baseurl : ""
