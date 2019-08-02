@@ -16,7 +16,7 @@ defaults:
     values:
       all_title: minkky 의 끄적끄적
       title: POST
-      url : "https:minkky.github.io"
+      url : "https://minkky.github.io"
       baseurl : ""
 
 description: Stylish Jekyll Theme
@@ -26,7 +26,7 @@ author:
   github: minkky
   linkedin: minkky
   bio: <b>Research field</b><br>Graph Similarity(embedding) with DL
-  sidebar_image: //user-images.githubusercontent.com/16285746/62137824-91a03880-b321-11e9-822f-bc10ec6a67e8.jpg
+  minion_image: //user-images.githubusercontent.com/16285746/62137824-91a03880-b321-11e9-822f-bc10ec6a67e8.jpg
   email_md5: 62137824-91a03880-b321-11e9-822f-bc10ec6a67e8.jpg
 
 rss_path: feed.xml
