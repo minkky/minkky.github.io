@@ -201,6 +201,86 @@
   
   
   <div class="post-block home">
+    <link itemprop="mainEntityOfPage" href="https://minkky.github.io/2019/10/10/Visualization/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Minji Seo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="minkky">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+            
+            <a href="/2019/10/10/Visualization/" class="post-title-link" itemprop="url">Visualization</a>
+          
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">작성일</span>
+
+              
+                
+              
+
+              <time title="Post created: 2019-10-10 12:15:04 / Updated at: 12:31:24" itemprop="dateCreated datePublished" datetime="2019-10-10T12:15:04+09:00">2019-10-10</time>
+            </span>
+          
+            
+
+            
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="tsne를-이용한-고차원-벡터-시각화"><a href="#tsne를-이용한-고차원-벡터-시각화" class="headerlink" title="tsne를 이용한 고차원 벡터 시각화"></a>tsne를 이용한 고차원 벡터 시각화</h1><ul>
+<li><p>code</p>
+<iframe src="https://carbon.now.sh/embed/?bg=rgba(255%2C255%2C255%2C1)&t=monokai&wt=none&l=python&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira%20Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=import%2520seaborn%2520as%2520sns%250Aimport%2520matplotlib.pyplot%2520as%2520plt%250Afrom%2520sklearn.manifold%2520import%2520TSNE%250A%250Asns.set_style('darkgrid')%250Asns.set_palette('muted')%250Asns.set_context(%2522notebook%2522%252C%2520font_scale%253D1.5%252C%2520rc%253D%257B%2522lines.linewidth%2522%253A%25202.5%257D)%250Alabels%2520%253D%2520%255Bstr(i)%2520for%2520i%2520in%2520range(len(except_embedding)%252B1)%255D%250Atsne_train_xs%2520%253D%2520TSNE(n_components%253D2%252C%2520verbose%253D1%252C%2520perplexity%253D6%252C%2520n_iter%253D1000).fit_transform(except_embedding%252C%2520labels)%250Aplt.figure(figsize%253D(8%252C%25208))%250Aplt.scatter(x%2520%253D%2520tsne_train_xs%255B%253A%252C0%255D%252C%2520y%253Dtsne_train_xs%255B%253A%252C1%255D%252C%2520color%253Dsns.color_palette(%2522hls%2522%252C%2520len(except_embedding)))%250Aplt.show(" style="transform:scale(0.9); width:1024px; height:473px; border:0; overflow:hidden; margin: 0px;" sandbox="allow-scripts allow-same-origin">
+</iframe>
+</li>
+<li><p>결과<br><img src="../visualization.png" width="400"></p>
+</li>
+</ul>
+
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+        <article itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block home">
     <link itemprop="mainEntityOfPage" href="https://minkky.github.io/2019/10/07/Loss-정리/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -391,7 +471,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">포스트</span>
         </a>
       </div>
